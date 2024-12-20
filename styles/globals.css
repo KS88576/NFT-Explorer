@@ -1,0 +1,263 @@
+@import url("../public/assets/css/animate.min.css");
+@import url("../public/assets/css/animation.css");
+@import url("../public/assets/css/bootstrap.css");
+@import url("../public/assets/css/responsive.css");
+@import url("../public/assets/css/shortcodes.css");
+@import url("../public/assets/css/style.css");
+@import url("../public/assets/css/swiper-bundle.min.css");
+
+/* Updated color variables */
+:root {
+  --primary: #3B82F6;
+  --secondary: #10B981;
+  --background: #1F2937;
+  --accent: #F59E0B;
+  --box-bg: #374151;
+}
+
+body {
+  background-color: var(--background);
+}
+
+.new_create_page {
+  padding: 5rem;
+}
+
+/* Fullscreen overlay */
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
+}
+
+/* Spinner */
+.loader {
+  border: 8px solid var(--box-bg);
+  border-top: 8px solid var(--accent);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+/* Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* //INPURT SEARCH */
+
+/* From Uiverse.io by vinodjangid07 */
+.input-wrapper {
+  height: 45px;
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  background-color: var(--box-bg);
+  border: 1px solid var(--primary);
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.1);
+}
+
+.icon {
+  width: 30px;
+  fill: rgb(255, 255, 255);
+  margin-left: 8px;
+  margin-right: 8px;
+  transition: all 0.3s;
+}
+.input {
+  max-width: 100%;
+  padding-inline: 2rem;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  background-color: var(--box-bg);
+  color: white;
+  font-size: 1em;
+}
+.input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px var(--box-bg) inset;
+  -webkit-text-fill-color: #ffffff;
+}
+.Subscribe-btn {
+  height: 100%;
+  width: 95px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  background-color: var(--primary);
+  font-weight: 500;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.3s ease;
+  margin-left: 12px;
+}
+.arrow {
+  /* display: none; */
+  position: absolute;
+  margin-right: 150px;
+  transition: all 0.3s;
+}
+.input-wrapper:active .icon {
+  transform: scale(1.3);
+}
+.Subscribe-btn:hover {
+  background-color: var(--secondary);
+  color: white;
+}
+.Subscribe-btn:hover .arrow {
+  margin-right: 0;
+  animation: jello-vertical 0.9s both;
+  transform-origin: right;
+}
+
+@keyframes jello-vertical {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+.Subscribe-btn:active {
+  transform: scale(0.9);
+}
+
+.filter-Height {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+/* NFT Box styling */
+.nft-discover-box {
+  background: linear-gradient(145deg, var(--primary), var(--secondary));
+  border-radius: 20px;
+  padding: 2rem;
+  color: white;
+}
+
+/* Network selector buttons */
+.network-selector {
+  background-color: var(--box-bg);
+  border: 1px solid var(--primary);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.network-selector:hover {
+  background-color: var(--primary);
+}
+
+.network-selector.active {
+  background-color: var(--primary);
+}
+
+/* Header styling */
+.header-logo {
+  filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.3));
+}
+
+/* Hero section */
+.hero-section {
+  background: linear-gradient(to bottom right, var(--background), var(--box-bg));
+  padding: 4rem 0;
+}
+
+/* Discovery box enhancement */
+.nft-discover-box {
+  background: linear-gradient(145deg, var(--primary), var(--secondary));
+  border-radius: 20px;
+  padding: 2rem;
+  color: white;
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.nft-discover-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Network selector enhancements */
+.network-selector {
+  background-color: var(--box-bg);
+  border: 1px solid var(--primary);
+  color: white;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  margin: 0 0.5rem;
+}
+
+.network-selector:hover {
+  background-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+/* Search box enhancement */
+.input-wrapper {
+  transition: all 0.3s ease;
+}
+
+.input-wrapper:focus-within {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Add a subtle gradient to the background */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top right, rgba(59, 130, 246, 0.1), transparent);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Add these styles to your existing globals.css */
+.header {
+  padding: 1rem 0;
+  background-color: var(--background);
+  border-bottom: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
