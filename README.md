@@ -6,75 +6,8 @@ Learn how to build and deploy a powerful Blockchain NFT Explorer from scratch, c
 
 ## Project Overview
 
-![alt text](https://www.daulathussain.com/wp-content/uploads/2024/11/Build-Deploy-a-Blockchain-NFT-Explorer-Supports-Ethereum-Binance-Polygon-Base-Celo-Networks.jpg)
-
-Kindly follow the following Instructions to run the project in your system and install the necessary requirements
-
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/build-and-deploy-a-solana-nft-creator-dapp-with-next.js-phantom-wallet-and-metaplex-or-solana-blockchain-dapp)
-
-#### Setup Video
-
-- [Final Code Setup video](https://youtu.be/jMxvW_SfVBM?si=FRs7WwYdL5-cCx1O)
-
-```
-  WATCH: Setup & Demo Of Project
-```
-
-#### Install Vs Code Editor
-
-```
-   GET: VsCode Editor
-   URL: https://code.visualstudio.com/download
-```
-
 #### NodeJs & NPM Version
 
-```
-  NodeJs: v18.12.1 || LATEST
-  NPM: 8.19.2 || LATEST
-  URL: https://nodejs.org/en/download
-```
-
-#### Clone Starter File
-
-```
-  GET: Project Starter File Download
-  URL:https://www.theblockchaincoders.com/SourceCode
-```
-
-All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
-
-## Final Code Instruction
-
-If you download the final source code then you can follow the following instructions to run the Dapp successfully
-
-#### What You Will Get
-
-Once you download the final source code, you will get a ZIP file, in that you will have 2 FOLDERS & README file which contain all the instructions to run the project and set video
-
-#### Setup Video
-
-```
-  WATCH: Setup & Demo Of Project
-```
-
-#### Final Source Code
-
-```
- FINAL CODE: Download the Final Source Code
- STARTER FILE: https://www.theblockchaincoders.com/SourceCode
-```
-
-#### Install Vs Code Editor
-
-```
-  GET: VsCode Editor
-  URL: https://code.visualstudio.com/download
-```
-
-#### NodeJs & NPM Version
-
-```
   NodeJs: v18.12.1 || LATEST
   NPM: 8.19.2 || LATEST
   URL: https://nodejs.org/en/download
@@ -93,19 +26,6 @@ Once you download the final source code, you will get a ZIP file, in that you wi
   OPEN: FORMSPREE
   URL: https://formspree.io/
 ```
-
-## Important Links
-
-- [Get Pro Blockchain Developer Course](https://www.theblockchaincoders.com/pro-nft-marketplace)
-- [Support Creator](https://bit.ly/Support-Creator)
-- [All Projects Source Code](https://www.theblockchaincoders.com/SourceCode)
-
-## Authors
-
-- [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
-- [@consultancy](https://www.theblockchaincoders.com/consultancy)
-- [@youtube](https://www.youtube.com/@daulathussain)
-
 #### PACKAGE JSON
 
 ```
